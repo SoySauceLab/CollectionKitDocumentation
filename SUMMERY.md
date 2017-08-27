@@ -1,3 +1,5 @@
+# Table of Contents
+
 # Getting Started
 
 * [Create and display collection views (CollectionProvider)](/docnotFound/)
