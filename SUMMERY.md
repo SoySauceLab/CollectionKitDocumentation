@@ -1,7 +1,7 @@
 # Getting Started
 
 * [Create and display collection views (CollectionProvider)](/docnotFound/)
-  * [data provider (arrayDataProvider)](/docnotFound/)
+  * [data provider (arrayDataProvider)](/dataProvider)
   * [view provider](/doc/notFound)
   * [size provider](/doc/notFound)
 * [Composing sections (CollectionComposer)](/docnotFound/)
