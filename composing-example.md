@@ -2,7 +2,20 @@
 Use `CollectionComposer` to combine multiple providers into one. You can also supply layout objects to Provider & Composer.
 
 ```swift
-provider1.layout = FlowLayout(padding: 10)
+
+let provider1 = CollectionProvider(
+    data: [1，2，3, 4],
+    viewUpdater: { (label: UILabel, index: Int, data: Int) in
+        label.backgroundColor = .red
+        label.layer.cornerRadius = 8
+        label.textAlignment = .center
+        label.text = "\(data)"
+    },
+    layout: FlowLayout(padding: 10),
+    sizeProvider: { (index: Int, data: Int, collectionSize: CGSize) -> CGSize in
+        return CGSize(width: 50, height: 50) // return your cell size
+    }
+)
 
 let provider2 = CollectionProvider(
     data: ["A", "B"],
@@ -25,4 +38,4 @@ collectionView.provider = CollectionComposer(
 )
 ```
 
-<img src="https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example2.svg" />
+![](https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example2.svg)
