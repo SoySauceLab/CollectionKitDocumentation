@@ -1,6 +1,6 @@
 ## Build your first collection
 
-A Collection is anything that implements \`Any\`
+A Collection is anything that implements `AnyCollectionProvider`
 
 ```swift
 let provider1 = CollectionProvider(
