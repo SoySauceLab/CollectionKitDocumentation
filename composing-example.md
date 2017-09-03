@@ -39,3 +39,13 @@ collectionView.provider = CollectionComposer(
 ```
 
 ![](https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example2.svg)
+
+## Make reusable provider class
+You can easily reuse provider implementation by making reusable provider class. Here is an example:
+```swift
+class RoundedLabelCollectionProvider<Data>: CollectionProvider<Data, UILabel> {
+
+    init(data: [Data], color: UIColor, cellSize: CGSize) {
+    
+}
+```
