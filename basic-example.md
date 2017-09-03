@@ -4,7 +4,7 @@ A provider is anything that implements `AnyCollectionProvider`. The simpliest wa
 
 ```swift
 let provider1 = CollectionProvider(
-    data: [1，2，3, 4], // provide an array of data, data can be any type
+    data: [1, 2, 3, 4], // provide an array of data, data can be any type
     viewUpdater: { (label: UILabel, index: Int, data: Int) in
         // update your view according to your data, view can be any subclass of UIView
         label.backgroundColor = .red
