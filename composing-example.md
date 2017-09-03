@@ -1,10 +1,7 @@
 
+Use `CollectionComposer` to combine multiple providers into one. You can also supply layout objects to Provider & Composer.
 
-Use \`CollectionComposer\` to combine multiple providers into one. You can also supply layout objects to Provider & Composer.
-
-
-
-```
+```swift
 provider1.layout = FlowLayout(padding: 10)
 
 let provider2 = CollectionProvider(
@@ -28,5 +25,4 @@ collectionView.provider = CollectionComposer(
 )
 ```
 
-&lt;img src="https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example2.svg" /&gt;
-
+<img src="https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example2.svg" />
