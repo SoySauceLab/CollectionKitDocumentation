@@ -1,6 +1,7 @@
-## Build your first collection
+## Build your first provider
 
-A Collection is anything that implements `AnyCollectionProvider`
+A provider is anything that implements `AnyCollectionProvider`. The simpliest way to build is 
+by using `CollectionProvider` class. To build a basic provider, here is what you need:
 
 ```swift
 let provider1 = CollectionProvider(
@@ -24,5 +25,10 @@ To display the content, just assign this provider to any instance of `Collection
 collectionView.provider = provider1
 ```
 
+The code above display a simple collection with 4 cells, using default FlowLayout.
+
+It looks something like:
 ![](https://cdn.rawgit.com/SoySauceLab/CollectionKit/c36d783/Resources/example1.svg)
+
+`ColllectionProvider` accept the following as initialization parameters:
 
