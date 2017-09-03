@@ -2,13 +2,7 @@
 
 ## Getting Started
 
-* [Introduction](README.md)
-* [Create and display collection views \(CollectionProvider\)](/docnotFound/)
-  * [data provider \(arrayDataProvider\)](/dataProvider)
-  * [view provider](/doc/notFound)
-  * [size provider](/doc/notFound)
-* [Composing sections \(CollectionComposer\)](/docnotFound/)
-* [Update data \(Data provider, handler\)](/docnotFound/)
+
 
 ---
 
