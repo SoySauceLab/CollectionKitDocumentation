@@ -1,5 +1,9 @@
 
-Use `CollectionComposer` to combine multiple providers into one. You can also supply layout objects to Provider & Composer.
+## Composing
+
+One of the distinct feature of CollectionKit is the ability to combine multiple providers into one. Each providers still maintains its own data, view, & layout. This makes collection far more flexible and easy to reuse. 
+
+Use `CollectionComposer` class to combine multiple providers into one.
 
 ```swift
 
