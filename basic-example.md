@@ -1,7 +1,6 @@
 ## Build your first provider
 
-A provider is anything that implements `AnyCollectionProvider`. The simpliest way to build a provider is   
-by using `CollectionProvider` class. Here is what you need to build a basic provider:
+A provider is anything that implements `AnyCollectionProvider`. The simpliest way to build a provider is by using `CollectionProvider` class. Here is what you need to build a basic provider:
 
 ```swift
 let provider1 = CollectionProvider(
