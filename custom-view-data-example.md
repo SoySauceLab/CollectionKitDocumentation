@@ -1,18 +1,18 @@
-## Custom View and Data
+## CollectionView with Custom View and Data Type
 
-You can provide custom view and data to `CollectionProvider` to make it suit your needs, and thanks to *swift*'s *generic*, it is quite easy to provide your custom type.
+`CollectionProvider` uses *generic*, so you can provide `CollectionProvider` with custom view and data type to make it suit your needs.
 
-Here is a code snippet.
+For example, we have a `ArticleView` type which can be populated with `ArticleData`, you can construct your collection provider like following:
 
 ```swift
 let provider = CollectionProvider(
     data: articles,
     // You can specify view and data type according to your need.
-    viewUpdater: { (view: ArticleView, data:ArticleData, at: Int) in
+    viewUpdater: { (view: ArticleView, data: ArticleData, at: Int) in
         // Use your data update view.
         view.populate(article: data)
     },
-    layout: FlowLayout(insets: UIEdgeInsets(top: 20, left: 16, bottom: 20, right: 16), padding: 30),
+    layout: FlowLayout(lineSpacing: 30),
     sizeProvider: { (_, view, size) -> CGSize in
         return CGSize(width: size.width, height: 200)
     })
