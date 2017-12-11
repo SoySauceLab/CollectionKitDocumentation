@@ -16,7 +16,8 @@ import CollectionKit
 
 class yourViewController: UIViewController {
   let dataProvider = ArrayDataProvider<YourDataType>(data: YourDataArray) { (_, data) in
-    return "Your data identifier based on data"
+    // Your data identifier based on data
+    return identifier
   }
 
   override func viewDidLoad() {

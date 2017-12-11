@@ -31,4 +31,5 @@ override func viewDidLoad() {
 
 ```
 
-Now, your collectionView will use your `ArticleData` to populate your `ArticleView` and lay them out.
+Now, your collectionView will use your `ArticleData` to populate your `ArticleView` and lay them out. For more detailed
+example, you can refer to [Article Example](https://github.com/SoySauceLab/CollectionKit/tree/master/Examples/ArticleExample)
