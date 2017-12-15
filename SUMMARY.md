@@ -1,8 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [Build your first provider](basic-example.md)
-* [Composing Example](composing-example.md)
-* [Custom View Example](custom-view-data-example.md)
-* Reload Data Example
+* [First Provider](basic-example.md)
+* [Composing](composing-example.md)
+* [Custom View](custom-view-data-example.md)
+* [Layout](layout.md)
+* [Reload Data](reload-data-example.md)
 

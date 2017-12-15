@@ -32,9 +32,9 @@ class yourViewController: UIViewController {
   }
 
   func updateData(_ data: [YourDataType]) {
-    // collectionView will update its views automatically.
     dataProvider.data = data
-    // If you need to get an up-to-date contentSize, you can call `reloadData()` on collectionView.
+    // collectionView will update its views automatically on the next update cycle.
+    // If you need to get an up-to-date contentSize immediately, you can call `reloadData()` directly on collectionView.
   }
 }
 ```
