@@ -40,7 +40,3 @@ It looks something like:
 | tapHandler | callback when a cell is tapped |
 | willReloadHandler | callback that will be called when collection view begins to reload |
 | didReloadHandler | callback that will be called when collection view finishes reload |
-| tapHandler | callback when a cell is tapped |
-
-
-
